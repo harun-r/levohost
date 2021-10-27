@@ -1,9 +1,10 @@
-import "./scss/app.scss";
+import Header from "./Components/Header/Header";
+import "./assets/scss/app.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Project run successfully</header>
+    <div className="app-wrapper">
+      <Header />
     </div>
   );
 }

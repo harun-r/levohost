@@ -1,0 +1,48 @@
+.navbar {
+    &.navbar-light{
+        background-color: $white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        .navbar-nav {
+            .nav-item{
+                margin-left: 30px;
+                .nav-link {
+                    color: rgba(0, 0, 0, 1);
+                    font-family: $font-ubuntu;
+                    &:hover{
+                        color: $red;
+                    }
+                }
+            }
+        }
+    }
+    .dropdown-menu {
+        padding: 0;
+        margin: 18px 0 0 0 !important;
+        border-radius: 0 0 5px 5px;
+        border-width: 3px 0 0 0;
+        border-style: solid;
+        border-color: $yellow;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        .dropdown-item {
+            font-size: 15px;
+            padding: 0.8rem 1rem;
+            color: rgba(0, 0, 0, 0.8);
+            &:hover{
+                background-color: $red;
+                color: $white;
+            }
+        }
+    }
+    &.navbar-light {
+        .navbar-toggler {
+            border: none;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .navbar-toggler-icon {
+            background-image: url("../../images/bar.svg");
+        }
+    }
+    
+}

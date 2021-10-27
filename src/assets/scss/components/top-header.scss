@@ -1,0 +1,49 @@
+.top-header{
+    a,
+    .call-us{
+        color: $white;
+        font-family: $font-ubuntu;
+        letter-spacing: 0.5px;
+        margin: 0;
+        span{
+            font-weight: 500;
+        }
+    }
+    a{
+        transition: all 0.3s ease-in;
+        &:hover{
+            color: $yellow;
+        }
+    }
+    .currency-btn{
+        background-color: lighten($red, 10%);
+        border-radius: 3px;
+        overflow: hidden;
+        .btn{
+            padding: 5px 10px;
+            height: auto;
+            font-size: 12px;
+            line-height: 1.2;
+            color: $white;
+            background-color: transparent;
+            border: none;
+            border-radius: 0;
+            &:hover{
+                background-color: lighten($white, 40%);
+                color: $red;
+            }
+            &.acitve{
+                background-color: lighten($white, 40%);
+                color: $red;
+            }
+        }
+    }
+    @media screen and (max-width:767px) {
+        .call-us{
+            text-align: center;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+}

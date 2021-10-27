@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: $white;
+   color: $black;
+   font-size: 14px;
+   line-height: 1.5;
+   font-weight: $font-400;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type:none
+}
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: $font-ubuntu;
+}
+button,input{
+    &:hover,
+    &:focus{
+        outline: none;
+        box-shadow: none;
+    }
+}

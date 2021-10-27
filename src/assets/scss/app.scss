@@ -4,6 +4,10 @@
 @import "./helpers/variables";
 @import "./helpers/base";
 @import "./helpers/helpers";
-@import "./helpers/utilities"
+@import "./helpers/utilities";
+
+// Components
+@import './components/top-header';
+@import './components/header';
 
 // Pages
