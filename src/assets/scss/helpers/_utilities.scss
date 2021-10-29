@@ -24,6 +24,18 @@
       color: $red;
     }
   }
+  &.btn-warning{
+    background-color: $yellow;
+    border-color: $yellow;
+    color: $white;
+
+    &:hover{
+      background-color: transparent;
+      color: $yellow;
+    }
+  }
+
+
   &.btn-outline-light{
     border-color: $white;
   }

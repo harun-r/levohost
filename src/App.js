@@ -9,6 +9,7 @@ import DomainSearch from "./Components/DomainSearch/DomainSearch";
 import "./assets/scss/app.scss";
 import DomainList from "./Components/DomainList/DomainList";
 import Features from "./Components/Features/Features";
+import ControlPanel from "./Components/ControlPanel/ControlPanel";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <DomainSearch/>
             <DomainList/>
             <Features/>
+            <ControlPanel/>
         </div>
     </Scrollbar>
   );
