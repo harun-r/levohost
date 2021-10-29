@@ -11,23 +11,35 @@
         font-size: 54px;
         line-height: 1.1;
         font-weight: $font-700;
+        @media (max-width: 767px) {
+          font-size: 24px;
+        }
       }
       p{
         font-size: 27px;
         font-family: $font-montserrat;
         font-weight: 500;
+        @media (max-width: 767px) {
+          font-size: 16px;
+        }
       }
     }
 
     .hero-offer{
       margin-top: 40px;
       width: 100%;
+      @media (max-width: 767px) {
+        margin-top: 20px;
+      }
       .offer-list{
         background-color: rgba(255, 255, 255, 0.2);
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
         padding: 30px;
         text-align: left;
+        @media (max-width: 767px) {
+          padding: 15px;
+        }
         p{
           width: 50%;
           margin-bottom: 0;
@@ -35,6 +47,11 @@
           font-size: 16px;
           font-weight: $font-500;
           position: relative;
+          @media (max-width: 767px) {
+            width: 100%;
+            font-size: 14px;
+            padding-left: 40px;
+          }
           &:after{
             content: '';
             display: block;
@@ -45,6 +62,10 @@
             position: absolute;
             left: 0;
             top: 15px;
+            @media (max-width: 767px) {
+              left: 20px;
+              top: 12px;
+            }
           }
         }
       }
@@ -59,6 +80,10 @@
         text-align: left;
         max-height: 70px;
         min-height: 70px;
+        @media (max-width: 767px) {
+          width: 45%;
+          padding: 20px
+        }
         h4{
           font-size: 36px;
           font-weight: $font-700;
@@ -69,10 +94,19 @@
             font-size: 22px;
             font-weight: $font-500;
           }
+          @media (max-width: 767px) {
+            font-size: 24px;
+            small{
+              font-size: 16px;
+            }
+          }
         }
       }
       .offer-btn{
         width: 40%;
+        @media (max-width: 767px) {
+          width: 55%;
+        }
         .btn-primary{
           clip-path: polygon(9% 0%, 100% 0%, 100% 100%, 0% 100%);
           background-color: $red;
@@ -93,6 +127,11 @@
           &:focus{
             box-shadow: none;
             outline: none;
+          }
+
+          @media (max-width: 767px) {
+            padding: 15px;
+            font-size: 12px;
           }
         }
       }

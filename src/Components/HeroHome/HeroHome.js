@@ -6,7 +6,7 @@ const HeroHome = () => {
     <div className="hero-home">
       <Container>
         <Row>
-          <Col sm={{span:8,  offset: 2}}>
+          <Col lg={{span:8,  offset: 2}}>
             <div className="d-flex flex-column align-items-center justify-content-center text-center center_hero">
               <div className="content">
                 <h3>Get your website, email and business online today</h3>
