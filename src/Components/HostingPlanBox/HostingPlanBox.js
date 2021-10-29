@@ -41,7 +41,6 @@ function HostingPlanBox() {
                         </div>
                     </Col>
                 </Row>
-
             </Container>
         </div>
     );
