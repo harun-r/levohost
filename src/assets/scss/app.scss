@@ -8,9 +8,12 @@
 @import "./helpers/utilities";
 
 // Components
+@import "./components/section-title-light";
+@import "./components/section-title";
 @import './components/top-header';
 @import './components/header';
 @import './components/hero-home';
 @import './components/hosting-plan-box';
 @import "./components/domain-search";
 @import "./components/domain-list";
+@import "./components/features";

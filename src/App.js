@@ -8,6 +8,7 @@ import DomainSearch from "./Components/DomainSearch/DomainSearch";
 
 import "./assets/scss/app.scss";
 import DomainList from "./Components/DomainList/DomainList";
+import Features from "./Components/Features/Features";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <HostingPlanBox/>
             <DomainSearch/>
             <DomainList/>
+            <Features/>
         </div>
     </Scrollbar>
   );

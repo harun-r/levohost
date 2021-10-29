@@ -27,4 +27,14 @@
   &.btn-outline-light{
     border-color: $white;
   }
+  &.btn-outline-primary{
+    border-color: $red;
+    color: $red;
+    &:hover{
+      background-color: $red;
+      color: $white;
+    }
+  }
+
+
 }

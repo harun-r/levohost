@@ -40,12 +40,13 @@
         line-height: 48px;
         font-weight: 700;
         font-family: $font-ubuntu;
+        color: $black;
       }
       p{
         font-size: 20px;
         line-height: 24px;
-        color: #4b5064;
-        font-weight: 400;
+        color: $gray;
+        font-weight: 300;
       }
       .search_domain_field {
         width: 100%;

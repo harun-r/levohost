@@ -1,0 +1,15 @@
+.section-title-light{
+  h3{
+    font-size: 48px;
+    line-height: 48px;
+    color: $black;
+    font-weight:300;
+    font-family: $font-montserrat;
+    margin-bottom: 20px;
+  }
+  p{
+    max-width: 800px;
+    margin: auto;
+    color: $gray;
+  }
+}
