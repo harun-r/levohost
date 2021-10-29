@@ -7,6 +7,7 @@ import HostingPlanBox from "./Components/HostingPlanBox/HostingPlanBox";
 import DomainSearch from "./Components/DomainSearch/DomainSearch";
 
 import "./assets/scss/app.scss";
+import DomainList from "./Components/DomainList/DomainList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <HeroHome/>
             <HostingPlanBox/>
             <DomainSearch/>
+            <DomainList/>
         </div>
     </Scrollbar>
   );

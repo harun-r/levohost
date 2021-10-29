@@ -1,5 +1,10 @@
 .hosting-plan-box{
   padding: 120px 0;
+
+  @media (max-width: 767px) {
+    padding: 50px 0;
+  }
+
   .hosting-plan-center{
     position: relative;
     @media (max-width: 767px) {
