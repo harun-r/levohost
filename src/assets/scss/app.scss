@@ -1,5 +1,6 @@
 // React Bootstrap
 @import "~bootstrap/scss/bootstrap";
+@import "~material-design-icons/iconfont/material-icons.css";
 // Helper
 @import "./helpers/variables";
 @import "./helpers/base";
@@ -10,4 +11,4 @@
 @import './components/top-header';
 @import './components/header';
 @import './components/hero-home';
-
+@import './components/hosting-plan-box';

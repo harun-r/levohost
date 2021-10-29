@@ -95,9 +95,23 @@
 
 // Color Classes
 .bg-red{
-    background-color: $color-primary;
+    background-color: $color-primary !important;
 }
-
+.bg-purple{
+    background-color: $purple !important;
+}
+.bg-yellow{
+    background-color: $yellow !important
+}
+.bg-red-dark{
+    background-color: $red-dark !important;
+}
+.bg-green{
+    background-color: $green !important;
+}
+.bg-blue{
+    background-color: $blue !important;
+}
 
 
 
