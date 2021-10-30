@@ -9,11 +9,13 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 const Features = () => {
     return (
         <div className="feature-section">
-            <SectionHeading
-                clasess="text-center"
-                heading="What makes Levohost so Different?"
-                desc="Neque porro quisquam est, qui dolorem ipsum quia dolor consectetur, adipisci numquam eius tempora
+            <Container>
+                <SectionHeading
+                    clasess="text-center"
+                    heading="What makes Levohost so Different?"
+                    desc="Neque porro quisquam est, qui dolorem ipsum quia dolor consectetur, adipisci numquam eius tempora
                     incidunt ut labore et dolore magnam aliquam quaerat voluptatem."/>
+            </Container>
             <Container>
                 <Row>
                     <Col md={{span: 10, offset:1}}>
