@@ -1,0 +1,63 @@
+.support-block{
+  background-color: $blue-dark;
+  padding: 80px 0 0 0;
+  color: $white;
+
+  h3{
+    font-size: 36px;
+    font-weight: $font-600;
+  }
+  p{
+    color: $white-dark;
+  }
+  @media (max-width: 767px) {
+    padding: 30px 0;
+    h3{
+      font-size: 22px;
+    }
+  }
+  .support-item{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+    .btn{
+      margin-right: 15px;
+      &.btn-support{
+        padding: 0;
+        border: none;
+        min-width: 150px;
+        span{
+          padding:15px 20px;
+          color: $white;
+          font-size: 50px;
+        }
+        small{
+          display: block;
+          padding: 10px 15px;
+          background-color: rgba(0,0,0,0.2);
+          color: $white;
+          font-weight: $font-600 !important;
+        }
+        @media (max-width: 767px) {
+          min-width: 50px;
+          max-width:46%;
+          width: 100%;
+
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap;
+      .btn{
+        margin-right: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .support-man{
+    margin-top: -80px;
+  }
+}

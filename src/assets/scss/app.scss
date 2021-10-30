@@ -8,15 +8,16 @@
 @import "./helpers/utilities";
 
 // Components
-@import "./components/section-heading";
-@import "./components/accordion";
+@import "components/section-heading";
+@import "components/accordion";
 @import './components/top-header';
 @import './components/header';
 @import './components/hero-home';
 @import './components/hosting-plan-box';
-@import "./components/domain-search";
-@import "./components/domain-list";
-@import "./components/features";
-@import "./components/control-panel";
-@import "./components/reviews";
-@import "./components/faq-section";
+@import "components/domain-search";
+@import "components/domain-list";
+@import "components/features";
+@import "components/control-panel";
+@import "components/reviews";
+@import "components/faq-section";
+@import "./components/support-block";

@@ -11,6 +11,7 @@ import Reviews from "./Components/Reviews/Reviews";
 
 import "./assets/scss/app.scss";
 import Faq from "./Components/Faq/Faq";
+import SupportBlock from "./Components/SupportBlock/SupportBlock";
 function App() {
   return (
     <Scrollbar>
@@ -24,6 +25,7 @@ function App() {
             <ControlPanel/>
             <Reviews/>
             <Faq/>
+            <SupportBlock/>
         </div>
     </Scrollbar>
   );
