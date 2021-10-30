@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
+import banner from '../../assets/images/banner.jpg';
 
 const HeroHome = () => {
   return (
-    <div className="hero-home">
+    <div className="hero-home" style={{backgroundImage: `url(${banner})`}}>
       <Container>
         <Row>
           <Col lg={{span:8,  offset: 2}}>
