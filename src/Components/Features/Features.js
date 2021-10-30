@@ -4,15 +4,16 @@ import {Container, Row, Col, Image, Button} from "react-bootstrap";
 import feature_1 from '../../assets/images/feature_img01.svg';
 import feature_2 from '../../assets/images/feature_img02.svg';
 import feature_3 from '../../assets/images/feature_img03.svg';
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 const Features = () => {
     return (
         <div className="feature-section">
-            <div className="section-title text-center">
-                <h3>What makes Levohost so Different?</h3>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor consectetur, adipisci numquam eius tempora
-                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-            </div>
+            <SectionHeading
+                clasess="text-center"
+                heading="What makes Levohost so Different?"
+                desc="Neque porro quisquam est, qui dolorem ipsum quia dolor consectetur, adipisci numquam eius tempora
+                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem."/>
             <Container>
                 <Row>
                     <Col md={{span: 10, offset:1}}>

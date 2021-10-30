@@ -1,16 +1,15 @@
 import React from "react";
 import Scrollbar from "react-scrollbars-custom";
-
 import Header from "./Components/Header/Header";
 import HeroHome from "./Components/HeroHome/HeroHome";
 import HostingPlanBox from "./Components/HostingPlanBox/HostingPlanBox";
 import DomainSearch from "./Components/DomainSearch/DomainSearch";
-
-import "./assets/scss/app.scss";
 import DomainList from "./Components/DomainList/DomainList";
 import Features from "./Components/Features/Features";
 import ControlPanel from "./Components/ControlPanel/ControlPanel";
+import Reviews from "./Components/Reviews/Reviews";
 
+import "./assets/scss/app.scss";
 function App() {
   return (
     <Scrollbar>
@@ -22,6 +21,7 @@ function App() {
             <DomainList/>
             <Features/>
             <ControlPanel/>
+            <Reviews/>
         </div>
     </Scrollbar>
   );
