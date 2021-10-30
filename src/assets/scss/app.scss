@@ -9,7 +9,8 @@
 
 // Components
 @import "./components/section-title-light";
-@import "components/section-heading";
+@import "./components/section-heading";
+@import "./components/accordion";
 @import './components/top-header';
 @import './components/header';
 @import './components/hero-home';
@@ -19,3 +20,4 @@
 @import "./components/features";
 @import "./components/control-panel";
 @import "./components/reviews";
+@import "./components/faq-section";

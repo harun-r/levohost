@@ -10,6 +10,7 @@ import ControlPanel from "./Components/ControlPanel/ControlPanel";
 import Reviews from "./Components/Reviews/Reviews";
 
 import "./assets/scss/app.scss";
+import Faq from "./Components/Faq/Faq";
 function App() {
   return (
     <Scrollbar>
@@ -22,6 +23,7 @@ function App() {
             <Features/>
             <ControlPanel/>
             <Reviews/>
+            <Faq/>
         </div>
     </Scrollbar>
   );
