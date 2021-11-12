@@ -1,0 +1,39 @@
+.hosting-features{
+    padding: 100px 0;
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+
+    .hosting-feature{
+        h3{
+            font-size: 30px;
+            color: $black;
+            max-width: 50%;
+            @media (max-width: 767px) {
+                font-size: 20px;
+                max-width: 90%;
+            }
+        }
+        p{
+            font-size: 18px;
+            @media (max-width: 767px) {
+                font-size: 15px;
+                max-width: 100%;
+            }
+
+        }
+    }
+    .hosting-features-img{
+        img{
+            width: 100%;
+            margin: auto;
+        }
+        @media (max-width: 767px) {
+            margin-bottom: 30px;
+            img{
+                width: 70%;
+                margin: auto;
+            }
+        }
+    }
+}

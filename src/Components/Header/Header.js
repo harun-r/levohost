@@ -5,6 +5,7 @@ import { Container, Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 // Resource load
 import logo from "../../assets/images/logo.png";
 import TopHeader from "./TopHeader";
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,19 +20,17 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Item>
-                <Nav.Link href="/">HOME </Nav.Link>
+                <NavLink className="nav-link" to="/" activeClassName="nav-active">HOME</NavLink>
               </Nav.Item>
               <NavDropdown title="HOSTING">
-                <NavDropdown.Item href="#">Shared Web Hosting</NavDropdown.Item>
+                <NavDropdown.Item to="/">Shared Web Hosting</NavDropdown.Item>
                 <NavDropdown.Item href="#">Business Hosting</NavDropdown.Item>
                 <NavDropdown.Item href="#">Reseller Hosting</NavDropdown.Item>
-                <NavDropdown.Item href="#">
-                  VPS Hosting (windows)
-                </NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/vps-hosting" activeClassName="nav-active">VPS Hosting</NavLink>
                 <NavDropdown.Item href="#">
                   VPS Hosting (linux)
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Dedicated Server</NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/dedicated-servers" activeClassName="nav-active">Dedicated Server</NavLink>
               </NavDropdown>
               <NavDropdown title="DOMAIN">
                 <NavDropdown.Item href="#">
@@ -43,7 +42,7 @@ const Header = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="MORE SERVICES">
-                <NavDropdown.Item href="#">SSL Certificate</NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/ssl-certificate" activeClassName="nav-active">SSL Certificate</NavLink>
                 <NavDropdown.Item href="#">
                   Website Security Service
                 </NavDropdown.Item>

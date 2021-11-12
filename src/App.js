@@ -1,14 +1,16 @@
 import React from "react";
+import {BrowserRouter as Router} from "react-router-dom";
 import Scrollbar from "react-scrollbars-custom";
 import "./assets/scss/app.scss";
-
-import Home from "./pages/Home";
+import AppRouter from "./Router/AppRouter";
 
 function App() {
   return (
     <Scrollbar>
         <div className="app-wrapper">
-           <Home/>
+            <Router>
+                <AppRouter/>
+            </Router>
         </div>
     </Scrollbar>
   );

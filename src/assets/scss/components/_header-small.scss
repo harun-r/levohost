@@ -1,0 +1,30 @@
+.header-small{
+  background-image: url("../../images/shared_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h3{
+    font-size: 48px;
+    font-weight: $font-700;
+    color: $white;
+  }
+  p{
+    padding: .3em 0.8em;
+    background: linear-gradient(to right, #F9D423, #F9D423);
+    color: #000;
+    font-weight: 600;
+  }
+
+  @media (max-width: 767px) {
+    h3{
+      font-size: 24px;
+    }
+
+  }
+
+}

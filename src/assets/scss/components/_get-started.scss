@@ -1,0 +1,24 @@
+.get-started{
+  padding: 100px 0;
+  background-color: $light-gray;
+  @media (max-width: 767px) {
+    padding: 50px 0;
+  }
+
+  h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: $black;
+    margin-bottom: 35px;
+  }
+  p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: $font-montserrat;
+
+    @media (max-width: 768px) {
+      max-width: 85%;
+    }
+  }
+}

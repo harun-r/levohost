@@ -1,0 +1,25 @@
+.extra-features{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    padding-bottom: 40px;
+    .extra-features-card{
+      padding-left: 50px;
+      position: relative;
+      @media (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+      .icon{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $yellow;
+        i{
+          font-size: 32px;
+        }
+      }
+      h3{
+        font-size: 20px;
+        font-weight: 500;
+        color: $black;
+      }
+    }
+}

@@ -13,7 +13,7 @@ const Faq = () => {
                 />
 
                 <div className="faq-inner">
-                    <Accordion defaultActiveKey="0">
+                    <Accordion className="accordion-faq" defaultActiveKey="0">
                     <AccordionItem
                         faqNo="0"
                         faqQuestion="What is Web Hosting?"

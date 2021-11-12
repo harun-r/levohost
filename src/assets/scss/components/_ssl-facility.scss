@@ -1,0 +1,31 @@
+.ssl-facility{
+  padding: 100px;
+  @media (max-width: 768px) {
+    padding:40px 30px;
+  }
+  h3{
+    color: $black;
+  }
+  .heading{
+    h3{
+      font-size: 32px;
+    }
+  }
+  .card-item{
+    margin-bottom: 30px;
+    h3{
+      font-size: 18px;
+      position: relative;
+      padding-left: 24px;
+      &:after{
+        content: '\e838';
+        font-family: "Material Icons";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $red;
+      }
+    }
+  }
+}
