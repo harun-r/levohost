@@ -1,12 +1,13 @@
 import React, {Fragment} from 'react';
 import Header from "../Components/Header/Header";
 import HeaderSmall from "../Components/HeaderSmall/HeaderSmall";
-import SupportBlock from "../Components/SupportBlock/SupportBlock";
 import Footer from "../Components/Footer/Footer";
 import AboutLevo from "../Components/AboutUs/AboutLevo";
 import OurHistory from "../Components/AboutUs/OurHistory";
 import OurVisionMission from "../Components/AboutUs/OurVisionMission";
 import OurTeam from "../Components/OurTeam/OurTeam";
+import WhatSection from "../Components/SharedComponent/WhatSection/WhatSection";
+import Reviews from "../Components/Reviews/Reviews";
 
 const AboutUs = () => {
     return (
@@ -20,7 +21,11 @@ const AboutUs = () => {
             <OurHistory/>
             <OurVisionMission/>
             <OurTeam/>
-            <SupportBlock/>
+            <WhatSection
+                spcStyle="text-white bg-dark"
+                btnName="light"
+            />
+            <Reviews/>
             <Footer/>
         </Fragment>
     );
