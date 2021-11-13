@@ -27,9 +27,6 @@ const Header = () => {
                 <NavLink className="dropdown-item" to="/business-hosting" activeClassName="nav-active">Business Hosting</NavLink>
                 <NavLink className="dropdown-item" to="/reseller-hosting" activeClassName="nav-active">Reseller Hosting</NavLink>
                 <NavLink className="dropdown-item" to="/vps-hosting" activeClassName="nav-active">VPS Hosting</NavLink>
-                <NavDropdown.Item href="#">
-                  VPS Hosting (linux)
-                </NavDropdown.Item>
                 <NavLink className="dropdown-item" to="/dedicated-servers" activeClassName="nav-active">Dedicated Server</NavLink>
               </NavDropdown>
               <NavDropdown title="DOMAIN">
@@ -49,7 +46,7 @@ const Header = () => {
               </NavDropdown>
               <NavDropdown title="COMPANY &amp; FACILITIES ">
                 <NavDropdown.Item href="#">Affiliate Program</NavDropdown.Item>
-                <NavDropdown.Item href="#">About LevoHost</NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/about-us" activeClassName="nav-active">About LevoHost</NavLink>
                 <NavDropdown.Item href="#">Contact Us</NavDropdown.Item>
               </NavDropdown>
             </Nav>

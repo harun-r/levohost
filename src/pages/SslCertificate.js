@@ -3,7 +3,6 @@ import Header from "../Components/Header/Header";
 import HeaderSmall from "../Components/HeaderSmall/HeaderSmall";
 import HostingPlanSlider from "../Components/HostingPlanSlider/HostingPlanSlider";
 import ExtraFeatures from "../Components/SharedComponent/ExtraFeatures/ExtraFeatures";
-import HostingFeatures from "../Components/SharedComponent/HostingFeatures/HostingFeatures";
 import SupportBlock from "../Components/SupportBlock/SupportBlock";
 import Footer from "../Components/Footer/Footer";
 import WhatSsl from "../Components/WhatSSL/WhatSSL";

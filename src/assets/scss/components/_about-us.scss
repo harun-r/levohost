@@ -1,0 +1,32 @@
+.about-levohost{
+  padding: 100px 0 0 0;
+  @media (max-width: 768px) {
+    padding: 40px 0 0 0;
+  }
+}
+.our-history{
+  padding: 60px 0 0 0;
+  @media (max-width: 768px) {
+    padding: 40px 0 0 0;
+  }
+}
+
+.our-vision{
+  margin-top: 60px;
+  padding: 100px 0;
+  background-image: url("../../../assets/images/subtle_white_feathers.png");
+  background-repeat: repeat;
+
+  @media (max-width: 768px) {
+    padding: 40px 0;
+  }
+  .image{
+    @media (max-width: 768px) {
+      text-align: center;
+      img{
+        display: block;
+        margin: 30px auto;
+      }
+    }
+  }
+}

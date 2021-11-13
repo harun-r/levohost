@@ -1,0 +1,16 @@
+.common-text-desc{
+  h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: $black;
+
+    span{
+      color: $red;
+    }
+
+    p{
+      margin-bottom: 15px;
+    }
+  }
+}

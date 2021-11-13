@@ -7,6 +7,7 @@ import SslCertificate from "../pages/SslCertificate";
 import SharedHosting from "../pages/SharedHosting";
 import BusinessHosting from "../pages/BusinessHosting";
 import ResellerHosting from "../pages/ResellerHosting";
+import AboutUs from "../pages/AboutUs";
 
 const AppRouter = () => {
     return (
@@ -19,6 +20,7 @@ const AppRouter = () => {
                 <Route exact path="/shared-hosting" component={SharedHosting} />
                 <Route exact path="/business-hosting" component={BusinessHosting} />
                 <Route exact path="/reseller-hosting" component={ResellerHosting} />
+                <Route exact path="/about-us" component={AboutUs} />
             </Switch>
         </Fragment>
     );

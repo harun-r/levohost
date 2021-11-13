@@ -3,11 +3,11 @@ import Header from "../Components/Header/Header";
 import HeaderSmall from "../Components/HeaderSmall/HeaderSmall";
 import HostingPlans from "../Components/HostingPlans/HostingPlans";
 import ExtraFeatures from "../Components/SharedComponent/ExtraFeatures/ExtraFeatures";
-import HostingFeaturesNoHead from "../Components/SharedComponent/HostingFeatures/HostingFeaturesNoHead";
-import ReadyToStart from "../Components/SharedComponent/ReadyToStart/ReadyToStart";
 import Faq from "../Components/Faq/Faq";
 import SupportBlock from "../Components/SupportBlock/SupportBlock";
 import Footer from "../Components/Footer/Footer";
+import HostingFeaturesFluid from "../Components/SharedComponent/HostingFeaturesFluid/HostingFeaturesFluid";
+import GetStatedBox from "../Components/SharedComponent/GetStarted/GetStatedBox";
 
 const ResellerHosting = () => {
     return (
@@ -19,8 +19,8 @@ const ResellerHosting = () => {
             />
             <HostingPlans/>
             <ExtraFeatures/>
-            <HostingFeaturesNoHead/>
-            <ReadyToStart/>
+            <HostingFeaturesFluid/>
+            <GetStatedBox/>
             <Faq/>
             <SupportBlock/>
             <Footer/>
