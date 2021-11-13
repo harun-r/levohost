@@ -47,7 +47,7 @@ const Header = () => {
               <NavDropdown title="COMPANY &amp; FACILITIES ">
                 <NavLink className="dropdown-item" to="/affiliate" activeClassName="nav-active">Affiliate Program</NavLink>
                 <NavLink className="dropdown-item" to="/about-us" activeClassName="nav-active">About LevoHost</NavLink>
-                <NavLink className="dropdown-item" to="/about-us" activeClassName="nav-active">Contact Us</NavLink>
+                <NavLink className="dropdown-item" to="/about" activeClassName="nav-active">Contact Us</NavLink>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

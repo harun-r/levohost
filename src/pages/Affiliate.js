@@ -8,6 +8,7 @@ import ListSection from "../Components/SharedComponent/ListSection/ListSection";
 import AffiliateTc from "../Components/AffiliateTC/AffiliateTC";
 import WhatSection from "../Components/SharedComponent/WhatSection/WhatSection";
 import Faq from "../Components/Faq/Faq";
+import ListDescSection from "../Components/SharedComponent/ListDescSection/ListDescSection";
 
 const Affiliate = () => {
     return (
@@ -30,6 +31,7 @@ const Affiliate = () => {
                 btnText="Join Now"
             />
             <Faq/>
+            <ListDescSection/>
             <Footer/>
         </Fragment>
     );
