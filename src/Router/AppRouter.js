@@ -8,6 +8,7 @@ import SharedHosting from "../pages/SharedHosting";
 import BusinessHosting from "../pages/BusinessHosting";
 import ResellerHosting from "../pages/ResellerHosting";
 import AboutUs from "../pages/AboutUs";
+import Affiliate from "../pages/Affiliate";
 
 const AppRouter = () => {
     return (
@@ -21,6 +22,7 @@ const AppRouter = () => {
                 <Route exact path="/business-hosting" component={BusinessHosting} />
                 <Route exact path="/reseller-hosting" component={ResellerHosting} />
                 <Route exact path="/about-us" component={AboutUs} />
+                <Route exact path="/affiliate" component={Affiliate} />
             </Switch>
         </Fragment>
     );
