@@ -7,9 +7,9 @@ const WhatSection = (props) => {
             <Container>
                 <Row>
                     <Col md={{span: 10, offset:1}}>
-                        <h3>Interested in joining the LevoHost family? We're hiring</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid atque cumque eos illo illum impedit in iusto laudantium maxime modi, nesciunt quas voluptatum. Ad id quia sed sint totam? tium maxime modi, nesciunt quas voluptatum. Ad id quia sed sint totam?</p>
-                        <Button variant={props.btnName}>Join our Team</Button>
+                        <h3>{props.heading}</h3>
+                        <p>{props.desc}</p>
+                        <Button variant={props.btnName}>{props.btnText}</Button>
                     </Col>
                 </Row>
             </Container>

@@ -24,6 +24,11 @@ const AboutUs = () => {
             <WhatSection
                 spcStyle="text-white bg-dark"
                 btnName="light"
+
+                heading="Interested in joining the LevoHost family? We're hiring"
+                desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid atque cumque eos illo illum impedit in iusto laudantium maxime modi, nesciunt quas voluptatum. Ad id quia sed sint totam? tium maxime modi, nesciunt quas voluptatum. Ad id quia sed sint totam?"
+                btnText="Join our Team"
+
             />
             <Reviews/>
             <Footer/>
