@@ -23,9 +23,9 @@ const Header = () => {
                 <NavLink className="nav-link" to="/" activeClassName="nav-active">HOME</NavLink>
               </Nav.Item>
               <NavDropdown title="HOSTING">
-                <NavDropdown.Item to="/">Shared Web Hosting</NavDropdown.Item>
-                <NavDropdown.Item href="#">Business Hosting</NavDropdown.Item>
-                <NavDropdown.Item href="#">Reseller Hosting</NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/shared-hosting" activeClassName="nav-active">Shared Web Hosting</NavLink>
+                <NavLink className="dropdown-item" to="/business-hosting" activeClassName="nav-active">Business Hosting</NavLink>
+                <NavLink className="dropdown-item" to="/reseller-hosting" activeClassName="nav-active">Reseller Hosting</NavLink>
                 <NavLink className="dropdown-item" to="/vps-hosting" activeClassName="nav-active">VPS Hosting</NavLink>
                 <NavDropdown.Item href="#">
                   VPS Hosting (linux)

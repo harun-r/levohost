@@ -55,6 +55,14 @@
 }
 
 
+//Text Color
+.text-blue{
+    color: $blue-dark !important;
+}
+.text-yellow{
+    color: $yellow !important;
+}
+
 // Spaceing
 .mt{
     &-10{
@@ -120,10 +128,19 @@
     height: 100%;
 }
 
-
 //blank-space
 .blank-space{
     display: block;
     height: 40px;
     width: 100%;
+}
+
+
+//Hover letter Space
+.hover-letter{
+    letter-spacing: 0;
+    transition: letter-spacing 0.2s ease-in;
+    &:hover{
+        letter-spacing: 1px !important;
+    }
 }
