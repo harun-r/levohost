@@ -10,9 +10,9 @@ const FaqAll = () => {
             <Header />
             <HeaderSmall
                 heading="Frequently Asked Questions"
+                desc="fd"
             />
             <FaqsAll_Sec/>
-
             <Footer/>
         </Fragment>
     );

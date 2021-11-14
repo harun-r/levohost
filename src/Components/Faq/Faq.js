@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion, Container} from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import FaqSec from "./FaqSec/FaqSec";
 
