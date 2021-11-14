@@ -1,0 +1,41 @@
+.operating-support{
+  padding: 80px 0;
+  text-align: center;
+  background-color: #F5F7FA;
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+  h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: $black;
+    margin-bottom: 40px;
+  }
+  .operating-systems-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .item{
+      border: 1px solid $border-color;
+      width: calc(100%/5 - 15px);
+      min-height: 100%;
+      margin-bottom: 15px;
+      background-color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba($black, 0.1%);
+
+      @media (max-width: 767px) {
+        width: calc(100%/2 - 15px)
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

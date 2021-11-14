@@ -1,0 +1,37 @@
+.how-affiliate-work{
+  padding: 100px 0;
+  @media (max-width: 767px) {
+    padding: 30px 0;
+  }
+
+  .affiliate-card{
+    margin: 30px 0 0 0;
+    padding: 30px;
+
+    @media (max-width: 768px) {
+      margin: 10px 0;
+    }
+
+    .icon{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: lighten($red, 5%);
+      color: $white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      span{
+        font-size: 32px;
+      }
+    }
+
+    h3{
+      font-size: 18px;
+      font-weight: 500;
+      color: $black;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+  }
+}

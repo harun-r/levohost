@@ -1,0 +1,213 @@
+//Buttons
+.lvh-btn{
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 13px 35px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.5s;
+  font-size: 14px;
+  font-family: $font-ubuntu;
+  letter-spacing: 0.3px;
+
+  @media (max-width: 767px) {
+    padding: 8px 25px;
+    font-size: 12px;
+  }
+
+//  Color Variation
+  &.btn-primary{
+    background-color: $red;
+    border-color: $red;
+
+    &:hover{
+      background-color: transparent;
+      color: $red;
+    }
+  }
+  &.btn-warning{
+    background-color: $yellow;
+    border-color: $yellow;
+    color: $white;
+
+    &:hover{
+      background-color: transparent;
+      color: $yellow;
+    }
+  }
+
+  &.btn-outline-light{
+    border-color: $white;
+  }
+  &.btn-outline-primary{
+    border-color: $red;
+    color: $red;
+    &:hover{
+      background-color: $red;
+      color: $white;
+    }
+  }
+}
+
+//  Custom Button
+.btn{
+  &.btn-order{
+    background-color: $yellow;
+    border-color: $yellow;
+    color: $white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 0;
+    box-shadow: 0 5px 20px rgba($black, 0.32%);
+    letter-spacing: 1px;
+    font-family: $font-ubuntu;
+  }
+
+  &.btn-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7e7f84;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    text-decoration: none;
+
+    &:hover{
+      color: $red;
+    }
+
+    span{
+      margin-right: 10px;
+    }
+  }
+
+  &.btn-success{
+    background-color: $green;
+    border-color: $green;
+    color: $white;
+    border-radius: 3px;
+    &:hover{
+      background-color: darken($green, 5%);
+      border-color: darken($green, 5%);
+    }
+  }
+  &.btn-danger{
+    background-color: $red;
+    border-color: $red;
+    color: $white;
+    border-radius: 3px;
+    &:hover{
+      background-color: darken($red, 20%);
+      border-color: darken($red, 20%);
+    }
+  }
+
+}
+
+
+//Custom Buttons
+.btn-border-1{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 40px;
+    font-size: 14px;
+    &.btn-success{
+      box-shadow: 0 3px 0 darken($green, 5%);
+    }
+    &.btn-danger{
+      box-shadow: 0 3px 0 darken($red, 20%);
+    }
+
+}
+
+
+//Avatar
+.avatar{
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+
+
+//Custom slick arrow
+//.slick-arrow{
+//  width: auto;
+//  height: auto;
+//  &.slick-prev::before,
+//  &.slick-next::before {
+//    font-family: inherit;
+//    font-size: 36px;
+//    line-height: 1;
+//    opacity: 1;
+//    color: $gray;
+//  }
+//  &.slick-prev {
+//    left: -30px;
+//  }
+//  &.slick-next {
+//    right: -30px;
+//  }
+//}
+
+.slick-arrow{
+  &.slick-prev::before,
+  &.slick-next::before {
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1;
+    opacity: 1;
+    color: $gray;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 2px 15px 30px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &.slick-prev {
+    left: -60px;
+
+  }
+  &.slick-next {
+    right: -30px;
+
+  }
+  &.slick-arrow{
+    &.slick-disabled{
+      display: none !important;
+    }
+  }
+  &.slick-prev::before {
+    font-family: "Material Icons";
+    content: '\e5cb';
+  }
+  &.slick-next::before {
+    font-family: "Material Icons";
+    content: '\e5cc';
+  }
+}
+
+.more-feature-slider{
+  .slick-arrow{
+    &.slick-prev {
+      left: 60px;
+      z-index: 99;
+    }
+    &.slick-next {
+      right: 60px;
+      z-index: 99;
+    }
+  }
+}

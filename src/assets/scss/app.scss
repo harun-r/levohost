@@ -1,5 +1,6 @@
 // React Bootstrap
 @import "~bootstrap/scss/bootstrap";
+@import "~material-design-icons/iconfont/material-icons.css";
 // Helper
 @import "./helpers/variables";
 @import "./helpers/base";
@@ -7,7 +8,40 @@
 @import "./helpers/utilities";
 
 // Components
+@import "./components/section-heading";
+@import "./components/section-header-two";
+@import "./components/section-heading-big";
+@import "./components/common-text-desc";
+@import "./components/what-section";
+@import "./components/about-us";
+@import "./components/get-started";
+@import "./components/accordion";
 @import './components/top-header';
 @import './components/header';
-
-// Pages
+@import "./components/header-small";
+@import "./components/footer";
+@import './components/hero-home';
+@import './components/hosting-plan-box';
+@import "./components/domain-search";
+@import "./components/domain-list";
+@import "./components/features";
+@import "./components/extra-features";
+@import "./components/control-panel";
+@import "./components/reviews";
+@import "./components/faq-section";
+@import "./components/support-block";
+@import "./components/hosting-plan-slider";
+@import "./components/hosting-features";
+@import "./components/operating-support";
+@import "./components/list-features";
+@import "./components/more-feature-slider";
+@import "./components/vps-level-hosting";
+@import "./components/what-ssl";
+@import "./components/ssl-reasons";
+@import "./components/ssl-facility";
+@import "./components/ssl-setup";
+@import "./components/hosting-plans";
+@import "./components/our-team";
+@import "./components/how-affiliate-work";
+@import "./components/affiliate-commission";
+@import "./components/ListSection";

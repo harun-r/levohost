@@ -1,0 +1,158 @@
+.hosting-plan-box{
+  padding: 120px 0;
+
+  @media (max-width: 767px) {
+    padding: 50px 0;
+  }
+
+  .hosting-plan-center{
+    position: relative;
+    @media (max-width: 767px) {
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    &:after,
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+    &:after{
+      background-image: url("../../images/dot_img.png");
+      width: 427px;
+      height: 199px;
+      top: -55px;
+      left: -158px;
+      z-index: -1;
+    }
+    &:before{
+      background-image: url("../../images/dots_round_img.png");
+      width: 166px;
+      height: 140px;
+      right: -90px;
+      bottom: -80px;
+      z-index: -1;
+    }
+    //hosting-plan-card
+    .hosting-plan-card{
+      color: $white;
+      padding: 40px;
+      @media (max-width: 767px) {
+        padding:50px 15px;
+      }
+      .heading{
+        font-size: 48px;
+        font-weight: $font-900;
+        font-family: $font-ubuntu;
+        text-transform: uppercase;
+        max-width: 70%;
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+          font-size: 24px;
+          max-width: 100%;
+        }
+        &.heading-half{
+          max-width: 40%;
+          margin-bottom: 0;
+          @media (max-width: 767px) {
+            max-width: 100%;
+          }
+        }
+      }
+      .price{
+        font-size: 24px;
+        font-weight: $font-400;
+        margin-bottom: 30px;
+        span{
+          font-size: 16px;
+        }
+        @media (max-width: 767px) {
+          font-size: 18px;
+          span{
+            font-size: 14px;
+          }
+        }
+      }
+
+      .hint-text{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-bottom: 10px;
+        span{
+          margin-right: 8px;
+        }
+      }
+
+      &.card-big{
+        min-height: 352px;
+      }
+      &.card-small{
+        min-height: 325px;
+        @media (max-width: 767px) {
+          min-height: 180px;
+        }
+      }
+      &.bg-blue{
+        border-bottom-right-radius: 10px;
+         @media (max-width: 767px) {
+          border-radius: 0;
+        }
+      }
+      &.bg-red-dark{
+        border-bottom-left-radius: 10px;
+         @media (max-width: 767px) {
+          border-radius: 0;
+        }
+      }
+
+      &.website-bg,
+      &.domain-bg{
+        position: relative;
+        overflow: hidden;
+        @media (max-width: 767px) {
+          border-top-right-radius: 0 !important;
+        }
+        &:after{
+          content: '';
+          display: block;
+          position: absolute;
+        }
+      }
+      &.website-bg{
+        border-top-left-radius: 10px;
+        &:after{
+          background-image: url("../../images/plan_img01.png");
+          width: 408px;
+          height: 222px;
+          right: -60px;
+          bottom: -35px;
+          @media (max-width: 767px) {
+            width: 325px;
+            height: 200px;
+          }
+        }
+      }
+      &.domain-bg{
+        border-top-right-radius: 10px;
+
+        &:after{
+          background-image: url("../../images/plan_img02.png");
+          width: 323px;
+          height: 242px;
+          right: 0;
+          bottom: 0;
+          @media (max-width: 767px) {
+            width: 315px;
+            height: 180px;
+            right: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
