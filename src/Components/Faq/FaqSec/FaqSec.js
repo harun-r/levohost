@@ -41,6 +41,7 @@ const FaqSec = () => {
                     </Accordion>
                 </div>
             </Container>
+            <p className="faq-hint">The latest revision of this Privacy Policy was published on February 25, 2020.</p>
         </div>
     );
 };
