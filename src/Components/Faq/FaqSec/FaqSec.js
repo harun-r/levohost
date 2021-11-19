@@ -1,43 +1,27 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Accordion, Container} from "react-bootstrap";
+import ReactHtmlParser from 'react-html-parser';
 import AccordionItem from "../../AccordionItem/AccordionItem";
+import {DataContext} from "../../../Contexts/DataContext";
 
 const FaqSec = () => {
+    const {faqGeneral} = useContext(DataContext);
     return (
         <div className="faq-section">
             <Container>
                 <div className="faq-inner">
                     <Accordion className="accordion-faq" defaultActiveKey="0">
-                        <AccordionItem
-                            faqNo="0"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
-                        <AccordionItem
-                            faqNo="1"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
-                        <AccordionItem
-                            faqNo="2"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
-                        <AccordionItem
-                            faqNo="3"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
-                        <AccordionItem
-                            faqNo="4"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
-                        <AccordionItem
-                            faqNo="5"
-                            faqQuestion="What is Web Hosting?"
-                            faqAnswer="Web hosting is the service that allows your website or web application available to be viewed by others on the internet. Everything on the internet usually needs a web host."
-                        />
+                        {
+                            faqGeneral.map(faq => {
+                                return(
+                                    <AccordionItem
+                                        faqNo={faq.id}
+                                        faqQuestion={faq.question}
+                                        faqAnswer={ReactHtmlParser(faq.answer)}
+                                    />
+                                )
+                            })
+                        }
                     </Accordion>
                 </div>
             </Container>
