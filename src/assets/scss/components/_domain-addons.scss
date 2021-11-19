@@ -1,0 +1,39 @@
+.domain-addons{
+  padding: 100px 0 ;
+  @media (max-width: 768px) {
+    padding: 40px 0;
+  }
+
+  .domain-addons-item{
+    text-align: center;
+    @media (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+    .icon{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      background-color: $red;
+      margin-bottom: 20px;
+      border: 20px solid transparent;
+      transition: border-color 0.3s ease-in;
+      span{
+        font-size: 36px;
+      }
+    }
+    p{
+      font-size: 17px;
+      font-weight: 500;
+      color: $black;
+    }
+    &:hover{
+      .icon{
+        border-color: darken($red, 20%);
+      }
+    }
+  }
+}

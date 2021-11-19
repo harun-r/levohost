@@ -132,7 +132,7 @@ const BdDomainPrice = () => {
         <div className="domain-price-bd">
             <Container>
                 <Row>
-                    <Col md={{span:8, offset:2}} className="text-center domain-price-bd-head">
+                    <Col md={{span:10, offset:1}} className="text-center domain-price-bd-head">
                         <h3>.BD Domain <span>Pricing</span></h3>
                         <p>It is a great opportunity to open a new market in Bangladesh by registering your .BD domain name. Any person/organization from all over the world can apply for registration of domain with DOT BD and it takes a maximum of three (03) working days to activate the domain upon submitting order.</p>
                     </Col>
