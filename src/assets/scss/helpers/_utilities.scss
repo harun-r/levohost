@@ -211,3 +211,44 @@
     }
   }
 }
+
+
+
+
+//Table
+.table{
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  background-color: $white;
+  > :not(:first-child) {
+    border-top: 2px solid darken($light-green, 10%);
+  }
+  > thead {
+    tr{
+      th{
+        background-color: $light-green;
+      }
+    }
+  }
+  > tbody,
+  > thead{
+    tr{
+      td,
+      th{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 1rem 1.8rem;
+        white-space: nowrap;
+      }
+      td{
+        &:nth-child(2){
+          color:$green-dark;
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  &.table-hover > tbody > tr:hover > * {
+    background-color: #f1f1f1
+  }
+}
