@@ -30,13 +30,10 @@ const Header = () => {
                 <NavLink className="dropdown-item" to="/dedicated-servers" activeClassName="nav-active">Dedicated Server</NavLink>
               </NavDropdown>
               <NavDropdown title="DOMAIN">
-                <NavDropdown.Item href="#">
-                  Domain Registration
-                </NavDropdown.Item>
+                <NavLink className="dropdown-item" to="/domain-registration" activeClassName="nav-active">Domain Registration</NavLink>
+                <NavLink className="dropdown-item" to="/bd-domain" activeClassName="nav-active">.BD domain registration</NavLink>
                 <NavDropdown.Item href="#">Domain Transfer</NavDropdown.Item>
-                <NavDropdown.Item href="#">
-                  .BD domain registration
-                </NavDropdown.Item>
+
               </NavDropdown>
               <NavDropdown title="MORE SERVICES">
                 <NavLink className="dropdown-item" to="/ssl-certificate" activeClassName="nav-active">SSL Certificate</NavLink>
@@ -47,7 +44,7 @@ const Header = () => {
               <NavDropdown title="COMPANY &amp; FACILITIES ">
                 <NavLink className="dropdown-item" to="/affiliate" activeClassName="nav-active">Affiliate Program</NavLink>
                 <NavLink className="dropdown-item" to="/about-us" activeClassName="nav-active">About LevoHost</NavLink>
-                <NavLink className="dropdown-item" to="/about" activeClassName="nav-active">Contact Us</NavLink>
+                <NavLink className="dropdown-item" to="/contact" activeClassName="nav-active">Contact Us</NavLink>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

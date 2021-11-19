@@ -13,6 +13,8 @@ import FaqAll from "../pages/FaqAll";
 import Tos from "../pages/Tos";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import Contact from "../pages/Contact";
+import DomainRegistration from "../pages/DomainRegistration";
+import BdDomain from "../pages/BdDomain";
 
 const AppRouter = () => {
     return (
@@ -31,6 +33,8 @@ const AppRouter = () => {
                 <Route exact path="/privacy-policy" component={PrivacyPolicy} />
                 <Route exact path="/tos" component={Tos} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/domain-registration" component={DomainRegistration} />
+                <Route exact path="/bd-domain" component={BdDomain} />
             </Switch>
         </Fragment>
     );

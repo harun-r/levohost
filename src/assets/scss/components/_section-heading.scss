@@ -25,3 +25,21 @@
     }
   }
 }
+
+
+.section-head-color{
+  h3{
+    font-size: 36px;
+    color: $black;
+    span{
+      color: $red;
+    }
+  }
+
+  @media all and (max-width: 768px){
+    h3 {
+      font-size: 24px;
+    }
+
+  }
+}

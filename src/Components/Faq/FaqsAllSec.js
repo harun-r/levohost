@@ -22,7 +22,6 @@ const FaqsAllSec = () => {
                 <FaqSec/>
             </div>
             <div className="faq-card-wrap">
-
                 <Container>
                     <Row>
                         <Col>

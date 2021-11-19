@@ -1,15 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import TextDescComon from "../SharedComponent/TextDescComon/TextDescComon";
 import {Col, Container, Row} from "react-bootstrap";
 
 const AboutLevo = () => {
+    const initialAbout = [
+        {
+            aboutClass:'text-center'
+        }
+    ]
+    const [about, setAbout] = useState(initialAbout);
+
+
     return (
         <div className="about-levohost">
             <Container>
                 <Row>
                     <Col md={{span:10, offset:1}}>
                         <TextDescComon
-                            headCenter="text-center"
+                            headCenter={about.aboutClass}
                             syntext="About"
                             name="LevoHost"
                             desc_1="LevoHost is a global provider of Web hosting and its related services. LevoHost's main target is to provide super fast & secure web hosting and its related services with the highest customer service at an affordable price."

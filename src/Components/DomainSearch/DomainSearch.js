@@ -1,5 +1,6 @@
 import React from 'react';
-import {Container, Row, Col, Form, Button} from "react-bootstrap";
+import {Container, Row, Col} from "react-bootstrap";
+import DomainSearchForm from "../DomainSearchForm/DomainSearchForm";
 
 const DomainSearch = () => {
     return (
@@ -10,14 +11,7 @@ const DomainSearch = () => {
                         <div className="search_domain_box">
                             <h2>Choose Your Domain Today!</h2>
                             <p>Get Perfect Domain Name from Hostiko.</p>
-                            <Form className="domain-search-form">
-                                <Form.Group>
-                                    <Form.Control className="search_domain_field" type="text" placeholder="Enter Your Domain Name:" />
-                                    <Button variant="primary" className="lvh-btn" type="submit">
-                                        Submit
-                                    </Button>
-                                </Form.Group>
-                            </Form>
+                            <DomainSearchForm/>
                         </div>
                     </Col>
                 </Row>
